@@ -40,4 +40,16 @@ public class Subject {
 		
 	}
 
+	//get the word count
+	public void getnumberOfWords(String sentence) {
+		System.out.println("sentence is:"+sentence);
+		String words[]= sentence.split(" ");
+		System.out.println("word count is:"+words.length);
+		System.out.println(sentence.toLowerCase());
+		System.out.println(sentence.toUpperCase());
+	}
+	
+	
+	
+	
 }

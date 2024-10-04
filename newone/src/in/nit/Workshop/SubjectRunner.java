@@ -8,6 +8,11 @@ public class SubjectRunner {
 		subject.getSubjectDetails("maths","21ec98");
 		subject.getNumberOfChar("Faizan ahmed");
 		subject.getNumberOfChar("maths","21ec98");
+		subject.getnumberOfWords("faizan is good boy");
+		subject.getnumberOfWords("HOW ARE YOU FAIZAN");
+		subject.getnumberOfWords("how are you faizan");
+		
+		
 		
 	}
 
